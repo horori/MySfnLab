@@ -19,7 +19,10 @@ Useful Scripts for Sparkle Formation to generate CloudFormation JSON template ea
 Here's a few commands to get you started:
 
 ``` bash
-bundle exec sfn print <.rb_filename_under_sparkleformation_folder>
+bundle update
+bundle exec sfn print -file step1ec2
+bundle exec sfn print -file step2lambda
+bundle exec sfn print -file step3custom
 ``` 
 
 ## Info
