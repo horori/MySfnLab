@@ -66,4 +66,10 @@ Configuration.new do
     google_service_account_private_key ENV['GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY']
     google_project ENV['GOOGLE_PROJECT']
   end
+  # sfn-lambda
+  # https://github.com/sparkleformation/sfn-lambda
+  callbacks do
+    require ['sfn-lambda']
+    default ['lambda']
+  end
 end

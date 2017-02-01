@@ -77,6 +77,8 @@ GEM
       miasma-rackspace (>= 0.1.0, < 0.3)
       net-ssh
       sparkle_formation (>= 3.0.3, < 4)
+    sfn-lambda (0.1.2)
+      sparkle_formation (>= 2.1.0)
     slop (3.6.0)
     sparkle_formation (3.0.10)
       attribute_struct (>= 0.3.0, < 0.5)
@@ -92,6 +94,7 @@ PLATFORMS
 
 DEPENDENCIES
   sfn
+  sfn-lambda
 
 BUNDLED WITH
    1.12.5
