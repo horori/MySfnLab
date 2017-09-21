@@ -42,7 +42,7 @@ SparkleFormation.new(:step2lambda, :provider => :aws) do
   end
 
   # Resources/Step2lambdaPolicy (AWS::IAM::Policy)
-  dynamic!(:policy, "step2lambda") do
+  dynamic!(:iampolicy, "step2lambda") do
     properties do
       policy_document do
         version "2012-10-17"

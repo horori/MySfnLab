@@ -41,7 +41,7 @@ SparkleFormation.new(:step3custom, :provider => :aws) do
   end
 
   # Resources/Step3customPolicy (AWS::IAM::Policy)
-  dynamic!(:policy, "step3custom") do
+  dynamic!(:iampolicy, "step3custom") do
     properties do
       policy_document do
         version "2012-10-17"
